@@ -10,7 +10,7 @@ repos:
 
   poky:
     url: https://git.yoctoproject.org/git/poky
-    refspec: 29f65bda6d2c9fea4adb125c4857ee64f9312b9f
+    refspec: d78224151d076ea900c74fc5f6acc418cf65c4ea
     layers:
       meta:
       meta-poky:
@@ -18,7 +18,7 @@ repos:
 
   meta-openembedded:
     url: http://git.openembedded.org/meta-openembedded
-    refspec: 4b3e87df56c177d8c5b8d744717f2f8548b4303a 
+    refspec: f7fe2415e1317c5bcb791c6c1ca9c36e476b0af8 
     layers:
       meta-oe:
       meta-multimedia:
@@ -33,7 +33,7 @@ bblayers_conf_header:
 
 local_conf_header:
   standard: |
-    CONF_VERSION = "1"
+    CONF_VERSION = "2"
 
   debug-tweaks: |
     EXTRA_IMAGE_FEATURES = "debug-tweaks"

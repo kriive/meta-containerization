@@ -7,4 +7,4 @@ target: container-image-payload
 
 local_conf_header:
   payload: |
-    PAYLOAD = "nodejs"
+    PAYLOAD = "busybox"
